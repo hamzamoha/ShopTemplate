@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "serve": "php -t public -S 0.0.0.0:8000",
+    "dev": "npx tailwindcss -i tailwind.css -o public/style.css --watch",
+    "build": "npm tailwindcss -i tailwind.css -o public/style.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
